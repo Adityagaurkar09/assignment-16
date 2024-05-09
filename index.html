@@ -11,11 +11,15 @@
        color: white;
        border-radius: 10px;
        height: 70px;
+       position: static;
     }
     .navbar a{
         padding: 5%;
-        font-size: 25px;
-        
+        font-size: 25px;     
+    }
+    .navbar a:hover{
+        background-color: rgba(240, 248, 255, 0.306);
+        color: black;
     }
     input{
       width: 70%;
@@ -27,12 +31,15 @@
       left: 15%;
       font-size: 30px;   
     }
-    img{
+    .logo{
         height: 35px;
         position: relative;
         top: 33px;
         left: 10%;
     }
+  
+ 
+
 </style>
 <body>
     <div class="navbar">
@@ -45,7 +52,8 @@
     </div>
 
     <div class="search">
-        <input type="text" placeholder="search a food"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw8UUuEM5OXxs_6pfzKZgK8jR4qYaVrUMh0g&usqp=CAU">
-    </div>
+        <input type="text" placeholder="search a food"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw8UUuEM5OXxs_6pfzKZgK8jR4qYaVrUMh0g&usqp=CAU" class="logo">
+
+       
 </body>
 </html>
